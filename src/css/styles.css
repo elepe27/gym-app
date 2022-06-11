@@ -1,0 +1,12 @@
+body {
+    font-family:  Helvetica, Arial, sans-serif !important;
+    background: black;
+    color: white    ;
+}
+.right-nav{
+    justify-content: right;
+}
+
+.royal-nav{
+    background: black;
+}
