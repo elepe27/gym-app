@@ -3,9 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 
 export const NavBar = () => {
-let path =`
-https://cdn.icon-icons.com/icons2/1854/PNG/512/2_116664.png
-`
+let path =`https://cdn.icon-icons.com/icons2/1854/PNG/512/2_116664.png`
     return (
         <nav className="navbar navbar-expand-sm fixed-top navbar-dark royal-nav">
             <div className="container-fluid">
