@@ -3,11 +3,13 @@ import { Link, NavLink } from "react-router-dom";
 
 
 export const NavBar = () => {
-
+let path =`
+https://cdn.icon-icons.com/icons2/1854/PNG/512/2_116664.png
+`
     return (
         <nav className="navbar navbar-expand-sm fixed-top navbar-dark royal-nav">
             <div className="container-fluid">
-                <img src={require("../Logo.png")}    alt="Imagen de logo" width="5%" /> &nbsp;
+                <img src={path}    alt="Imagen de logo" width="5%" /> &nbsp;
                 <Link className="navbar-brand" to="/">Gym-App</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
